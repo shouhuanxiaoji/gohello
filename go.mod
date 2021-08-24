@@ -2,9 +2,7 @@ module github.com/shouhuanxiaoji/gohello
 
 go 1.17
 
-replace echo => github.com/labstack/echo v3.3.10+incompatible
-
-require echo v3.3.10+incompatible
+require github.com/labstack/echo v3.3.10+incompatible
 
 require (
 	github.com/labstack/gommon v0.3.0 // indirect
